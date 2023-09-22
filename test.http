@@ -3,7 +3,7 @@
 GET {{baseUrl}}
 
 ### recuperar pelicula por ID
-GET {{baseUrl}}/dcdd0fad-a94c-4810-8acc-5f108d3b18c3
+GET {{baseUrl}}/650c78e76af538407ec879b1
 
 ### recuperar peliculas por  un genero
 GET {{baseUrl}}?genre=action
@@ -27,14 +27,14 @@ content-type: application/json
 
 ### Actualizar una pelicula con patch
 
-PATCH {{baseUrl}}/a3787de0-0183-43c1-a486-cec0d9e586b2 HTTP/1.1
+PATCH {{baseUrl}}/650c78e76af538407ec879b2 HTTP/1.1
 content-type: application/json
 
 {
-  "title": "Spider-Man",
-  "year": 2000
+  "title": "Fast and Furios 10",
+  "year": 2023
 }
 
 ### Borrar una Pelicula 
-DELETE {{baseUrl}}/a3787de0-0183-43c1-a486-cec0d9e586b2 HTTP/1.1
+DELETE {{baseUrl}}/650c78e76af538407ec879b1 HTTP/1.1
 content-type: application/json 

@@ -1,5 +1,5 @@
 import { randomUUID } from 'node:crypto'
-import { movies } from '../utils.js'
+import { movies } from '../../utils.js'
 
 /**
  * import { readJSON } from '../utils.js'
@@ -11,7 +11,7 @@ export class MovieModel {
     if (genre) {
       return movies.filter(movie => movie.genre.some(g => g.toLowerCase() === genre.toLowerCase()))
     }
-
+    console.log('from file')
     return movies
   }
 
