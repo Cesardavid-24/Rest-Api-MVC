@@ -1,6 +1,6 @@
 import { MongoClient, ObjectId, ServerApiVersion } from 'mongodb'
 
-const uri = 'mongodb+srv://cesar:120990@cluster-api-rest.uiopvqt.mongodb.net/?retryWrites=true&w=majority'
+const uri = process.env.DB
 
 const client = new MongoClient(uri, {
   serverApi: {
