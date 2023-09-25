@@ -1,4 +1,4 @@
-import { MovieModel } from '../models/mongodb/movie.js'
+import { MovieModel } from '../models/mariadb/movie.js'
 import { validateMovie, validatePartialMovie } from '../schema/movie.js'
 
 export class MovieController {
